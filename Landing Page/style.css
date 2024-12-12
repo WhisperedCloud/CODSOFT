@@ -1,0 +1,101 @@
+#navbar{
+        height: 55px;
+        display: flex;
+        background-color: black;
+        justify-content: space-around   ;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        a{
+            color: azure;
+            text-decoration: none;
+            font-size: larger;
+            margin-left: 20px;
+            
+        }
+        a:hover{
+            background-color: white;
+            padding: 10px;
+            border-radius: 2px;
+            color:black;
+            text-decoration: none;
+        }
+    
+}
+*{
+    margin: 0%;
+}
+#hero{
+    img{
+        height: 92vh;
+        width: 100%;
+    }
+    .ro{
+        position: relative; 
+        display: inline-block;
+    }
+    .text{
+        position: absolute; 
+        top: 50%; 
+        left: 60%; 
+        transform: translate(-50%, -50%);
+        color:black;
+    }
+    button{
+        margin-left: 200px;
+         margin-top:30px;
+         background-color: black;
+         color: aliceblue;
+         font-size: 25px;
+         border-radius: 5px;
+    }
+}
+#serv{
+    background-color: black;
+    img{
+        height: 250px;
+        width: 400px;
+        margin-left: 60px;
+        margin-bottom:20px;
+    }
+    p{
+        font-size: large;
+        margin-bottom : 20px;
+        margin-left: 60px;
+        color: aliceblue;
+        
+    }
+    h1{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color: aliceblue;
+        
+    }
+
+}
+#abt{
+    background-color:aliceblue;
+    p{
+        font-size: large;
+        margin-bottom : 20px;
+        margin-left: 60px;
+        color: black;
+        
+    }
+    h1{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        color:black;
+        
+    }
+}
+#footer{
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 60px;
+
+}

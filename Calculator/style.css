@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:bisque;
+}
+
+.cal {
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    margin-right: 20px;
+}
+
+.display {
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-left:10%;
+    font-size: large;
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.button {
+    background: aqua;
+    border: none;
+    border-radius: 5px;
+    color:black;
+    font-size: 1.5rem;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.button:active {
+    background: darkblue;
+}
+
+.button.operator {
+    background-color:orchid;
+}
+
+.button.operator:active {
+    background-color: beige;
+}
+
+.button.clear {
+    background-color: purple;
+}
+
+.button.clear:active {
+    background: #c0392b;
+}
+
+.button.equal {
+    background: olivedrab;
+  
+}
+
+.button.equal:active {
+    background: #27ae60;
+}
